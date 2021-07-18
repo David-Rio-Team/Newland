@@ -1,0 +1,39 @@
+{
+  "name": "Rio Music Bot",
+  "description": "Rio Music",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/David-Rio-Team/Newland ",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "السيشن",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "توكن بوت فاذر  - وضع البوت انلاين",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "اسم البوت الخاص بك",
+      "required": false,
+      "value": "نيولاند"
+    },
+    "API_ID": {
+      "description": "الايبي ايدي هنا",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "الايبي هاش هنا",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "هنا ضع ايدي حسابك",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "عدد التحميلات في الدقيقة الافضل تبقى 10",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
